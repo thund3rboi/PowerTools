@@ -1,0 +1,9 @@
+name: PowerTools
+version: '${project.version}'
+main: dev.micah.powertools.PowerTools
+api-version: 1.16
+commands:
+  powertool:
+    description: Binds a command to an item
+  checktool:
+    description: Checks an items command

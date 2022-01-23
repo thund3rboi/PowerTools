@@ -1,0 +1,17 @@
+prefix: '&a[PowerTools]'
+messages:
+  no-permission: '&aYou cannot run this command!'
+  # Placeholders: %command%
+  power-tool-bind: '&aYou have bind your held item to: &f%command%'
+  # Placeholders: %old-command%, %command%
+  power-tool-changed: '&aYou have updated the command from &f%old-command% &ato &f%command%'
+  # Placeholders: %command%
+  power-tool-check: '&aThis item has the command: &f%command%'
+
+power-tool:
+  # Placeholders: %command%, %id%
+  item-name: '&aPower Tool'
+  lore:
+    - ' '
+    - '&aCommand:'
+    - '&f- &7%command%'
